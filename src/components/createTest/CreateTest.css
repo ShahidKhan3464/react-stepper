@@ -1,0 +1,35 @@
+.Create {
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+}
+
+.Create .grid {
+    gap: 40px;
+    display: grid;
+    margin-bottom: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Create form .form-control {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    background-image: none !important;
+    border-color: lightGrey !important;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #9B9B9B;
+    font-weight: 400;
+    line-height: 19px;
+    font-style: normal;
+    font-family: 'Poppins';
+}
+
+.Create .buttons {
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+}

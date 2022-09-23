@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "id": "e668e551-1736-45ae-a72d-85361a737088",
+      "title": "HTML",
+      "other": "12",
+      "description": "This communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening."
+    },
+    {
+      "id": "e93142bf-aacd-4a3e-9f16-3df6a92eba71",
+      "title": "CSS",
+      "other": "12",
+      "description": "This communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening."
+    },
+    {
+      "id": "1e9104ba-1fad-4e74-a104-12da7f4b25da",
+      "title": "REACT",
+      "other": "12",
+      "description": "This communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening."
+    },
+    {
+      "id": "20546ecd-8920-4661-be79-38f7db20dddb",
+      "title": "FIGMA",
+      "other": "10",
+      "description": "This communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening."
+    },
+    {
+      "id": "6214b6cb-63a4-4b78-97fe-444b005443a5",
+      "title": "Adobe",
+      "other": "10",
+      "description": "This communication test evaluates candidates' skills in communicating clearly and effectively using professional etiquette. The test assesses candidates in both written and verbal communication, as well as non-verbal cues and active listening."
+    }
+  ]
+}

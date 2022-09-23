@@ -1,0 +1,137 @@
+.Library {
+    gap: 40px;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.Library .tests {
+    gap: 30px;
+    display: flex;
+    padding: 0 50px;
+}
+
+.tests .test {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed lightgray;
+}
+
+.tests .addedTest {
+    width: 150px;
+    height: 50px;
+    border: none;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    background: #F1F1F1;
+    justify-content: space-around;
+}
+
+.addedTest p {
+    margin: 0;
+}
+
+.Library .search {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    padding: 0 15px;
+    max-width: 500px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid lightgrey;
+}
+
+.Library .search input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #A6A6A6;
+    font-weight: 400;
+    background: none;
+    line-height: 19px;
+    font-style: normal;
+    font-family: 'Poppins';
+}
+
+.Library .data {
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-width: 1010px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 4px 0px 4px rgba(0, 0, 0, 0.06);
+}
+
+.data .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data .left .icon {
+    width: 100px;
+    height: 80px;
+}
+
+.data .left .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.data .middle {
+    padding: 20px;
+    border-left: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+}
+
+.data .middle .top-portion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data .middle .description {
+    width: 100%;
+    max-width: 660px;
+}
+
+.data .right {
+    display: flex;
+    align-items: center;
+}
+
+.data .right .actionBtn {
+    gap: 10px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data .right .actionBtn button {
+    width: 115px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Library .lower {
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+}
