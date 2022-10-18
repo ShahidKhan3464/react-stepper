@@ -33,3 +33,10 @@
     margin-top: 30px;
     justify-content: flex-end;
 }
+
+.Create .error {
+    color: red;
+    margin-top: 3px;
+    font-weight: 500;
+    margin-left: 5px;
+}

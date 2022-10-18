@@ -14,7 +14,7 @@ const TestLibrary = () => {
     const [addition, setAddition] = useState(0)
     const [addedTest, setAddedTest] = useState([{}, {}, {}, {}, {}])
     const [searchItem, setSearchItem] = useState('')
-    const { setCurrentStep, setSaveData } = useGlobalContext()
+    const { setCurrentStep, setSaveData, setLastAddition } = useGlobalContext()
 
     const handleAdd = (e, test) => {
         addedTest[addition] = test
@@ -28,12 +28,12 @@ const TestLibrary = () => {
         setAddition(prevAddition => prevAddition - 1)
         setDisable({ ...disable, [id]: false });
         addedTest.push({})
-
     }
 
     const handleSave = () => {
         const extract = []
         addedTest.map(test => test.title && extract.push(test))
+        if (extract.length < 5) return alert("All Test must be filled")
         setSaveData(extract)
         setCurrentStep((prevCurrentStep) => prevCurrentStep + 1);
     }
@@ -41,6 +41,7 @@ const TestLibrary = () => {
     const getData = async () => {
         const { data } = await axios.get("http://localhost:4000/tests")
         setTests(data)
+        setLastAddition(data[data.length - 1])
     }
 
     useEffect(() => {
